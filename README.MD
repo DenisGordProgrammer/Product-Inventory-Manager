@@ -42,38 +42,43 @@
 ## 📁 Структура проєкту
 
 Product-Inventory-Manager/
-│
-├── backend/
-│ ├── controllers/
-│ │ ├── authController.js
-│ │ └── productController.js
-│ ├── models/
-│ │ ├── db.js
-│ │ └── Product.js
-│ ├── routes/
-│ │ ├── authRoutes.js
-│ │ └── productRoutes.js
-│ ├── server.js
-│ └── data.db
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── ProductList.jsx
-│ │ │ ├── ProductForm.jsx
-│ │ │ ├── SearchBar.jsx
-│ │ │ └── SortBar.jsx
-│ │ ├── pages/
-│ │ │ ├── LoginPage.jsx
-│ │ │ └── RegisterPage.jsx
-│ │ ├── styles/
-│ │ │ ├── LoginPage.scss
-│ │ │ └── ProductList.scss
-│ │ ├── App.js
-│ │ └── index.js
-│ └── package.json
-│
-└── README.md
+- │
+- ├── backend/
+- │   ├── controllers/
+- │   │   ├── authController.js
+- │   │   └── productController.js
+- │   ├── models/
+- │   │   ├── db.js
+- │   │   ├── User.js
+- │   │   └── Product.js
+- │   ├── routes/
+- │   │   ├── auth.js 
+- │   │   └── products.js 
+- │   ├── server.js
+- │   └── database.sqlite 
+- │
+- ├── frontend/
+- │   ├── src/
+- │   │   ├── components/
+- │   │   │   ├── ProductList.jsx
+- │   │   │   ├── EditProductForm.jsx
+- │   │   │   ├── ProductControls.jsx
+- │   │   │   ├── ProductForm.jsx
+- │   │   │   └── ProductTable.jsx
+- │   │   ├── pages/
+- │   │   │   ├── HomePage.jsx
+- │   │   │   ├── LoginPage.jsx
+- │   │   │   └── RegisterPage.jsx
+- │   │   ├── styles/
+- │   │   │   ├── LoginPage.scss
+- │   │   │   ├── ProductForm.scss 
+- │   │   │   └── ProductList.scss
+- │   │   ├── App.js
+- │   │   └── index.js
+- │   └── package.json
+- │
+- └── README.md
+
 
 ---
 
