@@ -3,7 +3,6 @@ import {
   addProduct,
   updateProduct,
   deleteProduct,
-  getAllProducts,
 } from "../models/Product.js";
 
 export async function getProducts(req, res) {
